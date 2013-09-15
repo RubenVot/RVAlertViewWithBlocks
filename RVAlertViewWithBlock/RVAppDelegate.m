@@ -2,9 +2,8 @@
 //  RVAppDelegate.m
 //  RVAlertViewWithBlock
 //
-//  Created by Rubén Vázquez Otero on 9/15/13.
-//  Copyright (c) 2013 WhiteYelloW. All rights reserved.
-//
+//  Created by Rubén Vázquez  on 9/15/13.
+
 
 #import "RVAppDelegate.h"
 

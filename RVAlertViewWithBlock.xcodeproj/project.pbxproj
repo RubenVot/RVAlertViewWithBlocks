@@ -19,6 +19,7 @@
 		9800F37E17E650B400F72F7E /* RVViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9800F37D17E650B400F72F7E /* RVViewController.m */; };
 		9800F38117E650B400F72F7E /* RVViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9800F37F17E650B400F72F7E /* RVViewController_iPhone.xib */; };
 		9800F38417E650B400F72F7E /* RVViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9800F38217E650B400F72F7E /* RVViewController_iPad.xib */; };
+		9824626817E65391001F995F /* RVAlertViewWithBlocks.m in Sources */ = {isa = PBXBuildFile; fileRef = 9824626717E65391001F995F /* RVAlertViewWithBlocks.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,8 @@
 		9800F37D17E650B400F72F7E /* RVViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RVViewController.m; sourceTree = "<group>"; };
 		9800F38017E650B400F72F7E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RVViewController_iPhone.xib; sourceTree = "<group>"; };
 		9800F38317E650B400F72F7E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RVViewController_iPad.xib; sourceTree = "<group>"; };
+		9824626617E65391001F995F /* RVAlertViewWithBlocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RVAlertViewWithBlocks.h; path = RVAlertViewWithBlocks/RVAlertViewWithBlocks.h; sourceTree = "<group>"; };
+		9824626717E65391001F995F /* RVAlertViewWithBlocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RVAlertViewWithBlocks.m; path = RVAlertViewWithBlocks/RVAlertViewWithBlocks.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +61,8 @@
 		9800F35817E650B300F72F7E = {
 			isa = PBXGroup;
 			children = (
-				9800F36A17E650B300F72F7E /* RVAlertViewWithBlock */,
+				9824626917E65396001F995F /* RVAlertViewWithBlocks */,
+				9800F36A17E650B300F72F7E /* RVAlertViewWithBlockSampleApp */,
 				9800F36317E650B300F72F7E /* Frameworks */,
 				9800F36217E650B300F72F7E /* Products */,
 			);
@@ -82,7 +86,7 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		9800F36A17E650B300F72F7E /* RVAlertViewWithBlock */ = {
+		9800F36A17E650B300F72F7E /* RVAlertViewWithBlockSampleApp */ = {
 			isa = PBXGroup;
 			children = (
 				9800F37317E650B300F72F7E /* RVAppDelegate.h */,
@@ -93,6 +97,7 @@
 				9800F38217E650B400F72F7E /* RVViewController_iPad.xib */,
 				9800F36B17E650B300F72F7E /* Supporting Files */,
 			);
+			name = RVAlertViewWithBlockSampleApp;
 			path = RVAlertViewWithBlock;
 			sourceTree = "<group>";
 		};
@@ -108,6 +113,16 @@
 				9800F37A17E650B400F72F7E /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9824626917E65396001F995F /* RVAlertViewWithBlocks */ = {
+			isa = PBXGroup;
+			children = (
+				9824626617E65391001F995F /* RVAlertViewWithBlocks.h */,
+				9824626717E65391001F995F /* RVAlertViewWithBlocks.m */,
+			);
+			name = RVAlertViewWithBlocks;
+			path = RVAlertViewWithBlock;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -181,6 +196,7 @@
 				9800F37117E650B300F72F7E /* main.m in Sources */,
 				9800F37517E650B300F72F7E /* RVAppDelegate.m in Sources */,
 				9800F37E17E650B400F72F7E /* RVViewController.m in Sources */,
+				9824626817E65391001F995F /* RVAlertViewWithBlocks.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -313,6 +329,7 @@
 				9800F38917E650B400F72F7E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
