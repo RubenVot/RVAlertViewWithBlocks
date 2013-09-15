@@ -10,6 +10,7 @@ The code is provided as a part of an example project.
 
 Just copy the RVAlertViewWithBlocks class to your project. 
 
+This project is licensed under the terms of the MIT license.
 
 
 
