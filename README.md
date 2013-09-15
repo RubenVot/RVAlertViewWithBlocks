@@ -8,6 +8,6 @@ RVAlertViewWithBlocks allows to show common alertviews but using blocks for the 
 ##Installation
 The code is provided as a part of an example project.
 
-To use it just copy the RVAlertViewWithBlocks class to your project. 
+Just copy the RVAlertViewWithBlocks class to your project. 
 
 
